@@ -17,7 +17,7 @@ export default function Messages() {
 
     const onClick = async () => {
         if (message == "") return
-        await fetch('http://localhost:3000/api/message', {
+        await fetch('/api/message', {
             method: 'POST',
             body: JSON.stringify(message)
         })

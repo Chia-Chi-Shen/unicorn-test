@@ -88,7 +88,7 @@ export default function Result() {
 
     const getMessage = async () => {
 
-        await fetch('http://localhost:3000/api/message')
+        await fetch('/api/message')
         .then(response => response.json())
         .then(data => {
             setMessage(data);
