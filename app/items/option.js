@@ -6,7 +6,7 @@ const Option = ({text})  => {
         <div className="absolute top-[23%] left-[15%] font-[naikaifont]">
             {text}
         </div>
-        <Image className='basis-auto self-center px-7' src='/images/item-option.png' width={818} height={211} alt={text}/>
+        <Image className='basis-auto self-center px-7' src='/images/item-option.png' width={818} height={211} alt={text} priority/>
         </div>
     )
 }
