@@ -25,7 +25,7 @@ export default function Messages() {
     }
 
     return(
-        <div className="w-full h-full bg-[url('/images/message-bg.png')] bg-center bg-cover">
+        <div className="w-full h-full max-sm:bg-[url('/images/message-bg.png')] bg-center bg-cover">
             <div className="relative">
             <Image className='px-7 pt-32 ' src='/images/message-content.png' width={916} height={1034}/>
             <textarea className="absolute top-[64%] left-[17%] w-[67%] h-1/4 rounded-md p-3
