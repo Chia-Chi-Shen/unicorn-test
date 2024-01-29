@@ -128,7 +128,7 @@ export default function Result() {
             <button onClick={() => generateImage(message)} className="bg-white p-2 rounded-[6px] text-slate-500 mt-[3%]">下載結果</button>
 
             <div className="flex flex-row w-full justify-center gap-8 pt-[9%] pb-[5%] items-center">
-            <a href="https://www.instagram.com/babyt777/" className="flex flex-row gap-2 items-center" target="_blank">
+            <a href="https://www.instagram.com/duckmouth_b/" className="flex flex-row gap-2 items-center" target="_blank">
                 <NextImage src={"/images/Instagram_icon.png.webp"} width={14} height={14} alt="instagram:"/>
                 <div className="text-gray-600/75 font-[monospace] text-xs">Duckmouth_B</div>
             </a>
