@@ -114,7 +114,7 @@ export default function Result() {
         b.style.backgroundColor = divStyle[scores.indexOf(Math.max(...scores))].match(/#([a-fA-F\d]{6})/)[0];
         m.style.fontSize = `${window.innerWidth < 320 ? 6 : 13}px`;
         m.style.fontFamily = 'Hiragino Sans GB';
-        m.style.lineHeight = `${15}px`;
+        m.style.lineHeight = `${17}px`;
     }, [message])
 
     return(
@@ -123,7 +123,7 @@ export default function Result() {
             <div className="relative">
             <NextImage className="relative" src={imgPath} width={1080} height={1920} priority="true" alt="result"/>
             <div id="result-message" className="absolute top-[76%] left-[63%] text-white w-[30%] text-left
-                                                font-['Hiragino Sans GB']">{message}</div>
+                                                font-medium">{message}</div>
             </div>
             <button onClick={() => generateImage(message)} className="bg-white p-2 rounded-[6px] text-slate-500 mt-[3%]">下載結果</button>
 
