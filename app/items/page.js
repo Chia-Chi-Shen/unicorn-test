@@ -53,7 +53,7 @@ export default function Items() {
 
     return (
         <div className={itemNum==2? "w-full h-full bg-[#394265] transition-colors delay-700 duration-500" : 
-                                    "w-full h-full max-sm:bg-[#9fa2d2] max-sm:bg-[url('/images/item-bg.png')] bg-cover bg-center"}>
+                                    "w-full h-full max-sm:bg-[#9fa2d2] max-sm:bg-[url('/images/item-bg.webp')] bg-cover bg-center"}>
         <div className="container px-3 pt-[7vh] pb-[5vh] flex flex-col content-center w-full h-full">
             <Content text={test}/>
             {options.map((option, index) => 
@@ -61,7 +61,7 @@ export default function Items() {
                 <Option text={option}/>
             </button>
             )}
-            <Image className='px-20' src={`/images/item-img-${itemNum}.png`} priority alt="image" width={496} height={415}/>
+            <Image className='px-20' src={`/images/item-img-${itemNum}.webp`} priority alt="image" width={496} height={415}/>
         </div></div>
     )
 };   
