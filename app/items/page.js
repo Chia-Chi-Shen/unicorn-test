@@ -61,7 +61,7 @@ export default function Items() {
                 <Option text={option}/>
             </button>
             )}
-            <Image className='px-20' src={`/images/item-img-${itemNum}.png`} alt="image" width={496} height={415}/>
+            <Image className='px-20' src={`/images/item-img-${itemNum}.png`} priority alt="image" width={496} height={415}/>
         </div></div>
     )
 };   
